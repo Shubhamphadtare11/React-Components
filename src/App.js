@@ -6,6 +6,7 @@ import ProgressBar from "./Components/ProgressBar";
 import { Parent } from "./Components/ChildToParent/Parent";
 import UseMemoExample from "./Components/useMemo/useMemoExample";
 import ContextExample from "./Components/Context/ContextExample";
+import Boxes from "./Components/Color Boxes/Boxes";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     {/* <Parent/> */}
     {/* <UseMemoExample/> */}
     {/* <ContextExample/> */}
+    <Boxes/>
   </div>;
 }
 
