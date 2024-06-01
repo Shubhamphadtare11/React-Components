@@ -7,6 +7,8 @@ import { Parent } from "./Components/ChildToParent/Parent";
 import UseMemoExample from "./Components/useMemo/useMemoExample";
 import ContextExample from "./Components/Context/ContextExample";
 import Boxes from "./Components/Color Boxes/Boxes";
+import ReactMemo from "./Components/React Memo/ReactMemo";
+import Apps from "./Components/SearchResults/Apps";
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
     {/* <Parent/> */}
     {/* <UseMemoExample/> */}
     {/* <ContextExample/> */}
-    <Boxes/>
+    {/* <Boxes/> */}
+    {/* <ReactMemo/> */}
+    <Apps/>
   </div>;
 }
 
