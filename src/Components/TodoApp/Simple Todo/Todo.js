@@ -12,21 +12,21 @@ const Todo = () => {
     }
   };
 
-  const handleDeleteTodo = (index)=>{
-    const newTodos = [...todo];
-    newTodos.splice(index,1);
-    setTodo(newTodos);
-  }
+  const handleDeleteTodo = (index) => {
+    const newTodo = todo.filter((_, i) => index !== i);
+    setTodo(newTodo);
+  };
 
   const handleToggleTodo = (index)=>{
     const newTodos = [...todo];
     newTodos[index].checked = !newTodos[index].checked;
     setTodo(newTodos);
   }
-
+console.log(value)
   return (
     <>
     <h1>To-Do List</h1>
+    
       <div>
         <input
           placeholder="Add Items..."

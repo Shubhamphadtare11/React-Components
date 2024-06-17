@@ -10,6 +10,8 @@ import ReactMemo from "./Components/React Memo/ReactMemo";
 import Apps from "./Components/SearchResults/Structured/Apps";
 import Search from "./Components/SearchResults/Simple/Search";
 import Todo from "./Components/TodoApp/Simple Todo/Todo";
+import SearchDebounce from "./Components/SearchResults/Simple With Debounce/SearchDebounce";
+import Infinite from "./Components/Infinite Scrolling/Infinite";
 
 
 function App() {
@@ -25,7 +27,9 @@ function App() {
       {/* <ReactMemo/> */}
       {/* <Apps /> */}
       {/* <Search/> */}
-     {/* <Todo/> */}
+      {/* <SearchDebounce/> */}
+     <Todo/>
+     {/* <Infinite/> */}
     </div>
   );
 }
