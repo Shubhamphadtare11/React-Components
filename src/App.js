@@ -13,6 +13,7 @@ import Todo from "./Components/TodoApp/Simple Todo/Todo";
 import TodoWithEdit from "./Components/TodoApp/Simple Todo/TodoWithEdit";
 import SearchDebounce from "./Components/SearchResults/Simple With Debounce/SearchDebounce";
 import Infinite from "./Components/Infinite Scrolling/Infinite";
+import DropdownExample from "./Components/Nested Dropdown/DropdownExample";
 
 
 function App() {
@@ -30,8 +31,9 @@ function App() {
       {/* <Search/> */}
       {/* <SearchDebounce/> */}
      {/* <Todo/> */}
-     <TodoWithEdit/>
+     {/* <TodoWithEdit/> */}
      {/* <Infinite/> */}
+     <DropdownExample/>
     </div>
   );
 }
