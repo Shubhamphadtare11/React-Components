@@ -1,5 +1,4 @@
 import React from "react";
-import FetchParent from "./Components/FetchAPI/FetchParent";
 import ImageSlider from "./Components/ImageSlider/ImageSlider";
 import { Parent } from "./Components/ChildToParent/Parent";
 import UseMemoExample from "./Components/useMemo/useMemoExample";
@@ -14,6 +13,8 @@ import TodoWithEdit from "./Components/TodoApp/Simple Todo/TodoWithEdit";
 import SearchDebounce from "./Components/SearchResults/Simple With Debounce/SearchDebounce";
 import Infinite from "./Components/Infinite Scrolling/Infinite";
 import DropdownExample from "./Components/Nested Dropdown/DropdownExample";
+import RouterPage from "./Components/Router/RouterPage";
+import FetchParent from "./Components/FetchAPI with custom hook/FetchParent";
 
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
      {/* <Todo/> */}
      {/* <TodoWithEdit/> */}
      {/* <Infinite/> */}
-     <DropdownExample/>
+     {/* <DropdownExample/> */}
+     <RouterPage/>
     </div>
   );
 }
