@@ -15,6 +15,9 @@ import Infinite from "./Components/Infinite Scrolling/Infinite";
 import DropdownExample from "./Components/Nested Dropdown/DropdownExample";
 import RouterPage from "./Components/Router/RouterPage";
 import FetchParent from "./Components/FetchAPI with custom hook/FetchParent";
+import HOCParent from "./Components/HOC Example Logging/HOCParent";
+import LiftParent from "./Components/StateLifting/LiftParent";
+import FilterDelete from "./Components/Filter_with_Delete/FilterDelete";
 
 
 function App() {
@@ -35,7 +38,10 @@ function App() {
      {/* <TodoWithEdit/> */}
      {/* <Infinite/> */}
      {/* <DropdownExample/> */}
-     <RouterPage/>
+     {/* <RouterPage/> */}
+   {/* <HOCParent/> */}
+   {/* <LiftParent/> */}
+<FilterDelete/>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import IMPPerson from "./IMPPerson";
 
 const FetchParent = () => {
     const data = useFetchAPI();
-    const UpdatedUser = IMPPerson(Users);
+    // const UpdatedUser = IMPPerson(Users);
   return (
     <div>
         {data && <Users data={data} />}
