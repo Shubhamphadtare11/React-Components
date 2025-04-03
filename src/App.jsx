@@ -18,6 +18,7 @@ import FetchParent from "./Components/FetchAPI with custom hook/FetchParent";
 import HOCParent from "./Components/HOC Example Logging/HOCParent";
 import LiftParent from "./Components/StateLifting/LiftParent";
 import FilterDelete from "./Components/Filter_with_Delete/FilterDelete";
+import UpdateProductList from "./Components/Update and save product list on button click/UpdateProductList";
 
 
 function App() {
@@ -41,7 +42,8 @@ function App() {
      {/* <RouterPage/> */}
    {/* <HOCParent/> */}
    {/* <LiftParent/> */}
-<FilterDelete/>
+{/* <FilterDelete/> */}
+<UpdateProductList/>
     </div>
   );
 }
