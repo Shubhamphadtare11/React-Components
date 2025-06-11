@@ -9,17 +9,22 @@ const ImageSlider = () => {
         setActiveImageIndex((activeImageIndex + 1) % data.length);
     }
 
+    // const handlePreviousClick = () =>{
+    //     // if(activeImageIndex===0){
+    //     //     setActiveImageIndex(data.length - 1)
+    //     // }
+    //     // else
+    //     // setActiveImageIndex(activeImageIndex - 1);
+    //     // or
+    //     setActiveImageIndex(
+    //         !activeImageIndex ? activeImageIndex - 1 : data.length - 1
+    //     )
+    // }
+
     const handlePreviousClick = () =>{
-        // if(activeImageIndex===0){
-        //     setActiveImageIndex(data.length - 1)
-        // }
-        // else
-        // setActiveImageIndex(activeImageIndex - 1);
-        // or
-        setActiveImageIndex(
-            !activeImageIndex ? activeImageIndex - 1 : data.length - 1
-        )
-    }
+        setActiveImageIndex((activeImageIndex - 1 + data.length) % data.length);
+    };
+    
 
     useEffect(() =>{
        const timer = setTimeout(() =>{
